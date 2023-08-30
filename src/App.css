@@ -8,10 +8,7 @@
 }
 
 body {
-  display: flex;
   background: #333;
-  justify-content: flex-end;
-  align-items: flex-end;
   min-height: 100vh;
 }
 
@@ -130,3 +127,70 @@ body {
     background-positon-x: 0px;
   }
 }
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Ensure the blur effect doesn't spill outside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .centered-text {
+    margin: 0;
+  }
+
+  
+  .video-hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Ensure the blur effect doesn't spill outside */
+  }
+  
+  .video-hero video {
+    filter: blur(3px); /* Adjust the blur intensity as needed */
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .about-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-skills h3,
+  .about-philosophy h3,
+  .about-journey h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-skills p,
+  .about-philosophy p,
+  .about-journey p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
