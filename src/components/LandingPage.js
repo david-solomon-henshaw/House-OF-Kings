@@ -1,12 +1,20 @@
 import React from 'react'
 import Hero from '../components/Hero';
-import Services from '../components/CallToAction';
+import CallToAction from '../components/CallToAction';
+
+import WearTypes from './WearsTypes';
+import New from './New';
 
 const LandingPage = () => {
   return (
     <div>
         <Hero />
-        <Services />
+        <CallToAction />
+        <WearTypes />
+        <New />
+
+
+
     </div>
   )
 }

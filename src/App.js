@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar />
+      
       </header>
       <Routes>
         <Route path="/" element={<LandingPage />} />
