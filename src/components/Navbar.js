@@ -75,13 +75,13 @@ const Navbar = () => {
                       className="dropdown-menu"
                       aria-labelledby="catalogueDropdown"
                     >
-                      <Link className="dropdown-item" to="/catalogue/men/native">
+                      <Link className="dropdown-item" to="/catalogue/traditionalattire">
                         Native Attire
                       </Link>
-                      <Link className="dropdown-item" to="/catalogue/office">
+                      <Link className="dropdown-item" to="/catalogue/officewears">
                         Office Wears
                       </Link>
-                      <Link className="dropdown-item" to="/catalogue/children">
+                      <Link className="dropdown-item" to="/catalogue/childrensclothing">
                         Children Wears
                       </Link>
                       <Link className="dropdown-item" to="/catalogue/wedding">

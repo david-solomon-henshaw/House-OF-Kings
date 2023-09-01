@@ -1,23 +1,27 @@
-import video from "../assets/videos/vid.mp4"
+import video from "../assets/videos/vid.mp4";
 import React from 'react';
 import ReactPlayer from 'react-player';
-
+import Contact from "./Contact";
 const VideoHero = () => {
+  const text = 'Your Text Here';
 
   return (
-    <div className="video-hero">
+    <div className="full-width-video">
       <ReactPlayer
         url={video}
-        playing={true}
+        width="100%"
+        height="100%"
         loop={true}
         controls={false}
-        width="100%"
-        height="100"
-        style={{ position: 'absolute', top: 0, left: 0 }}
+        playing={true}
       />
-      <div className="video-overlay">
-        <h1 className="centered-text">Your Centered Text</h1>
+
+      <div className="text-overlay">
+        {text}
       </div>
+
+      {/* Include the Contact component as a child */}
+      <Contact />
     </div>
   );
 };

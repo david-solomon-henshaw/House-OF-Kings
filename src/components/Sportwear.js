@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const MensCatalogue = () => {
+const Sportwear = () => {
     const originalImage = 'https://media.istockphoto.com/id/1255153663/photo/cheery-black-guy-having-fun-over-yellow-background.jpg?s=612x612&w=0&k=20&c=iFfdTSPmiGAcrxy3VXfYuHkmcRzKvOWJ5GvlDrHOahI=';
   
     // Generate 30 different image links with varying widths
@@ -29,7 +29,7 @@ const MensCatalogue = () => {
           </div>
         </div>
       </div>
-    );
-  };
+  )
+}
 
-export default MensCatalogue;
+export default Sportwear
