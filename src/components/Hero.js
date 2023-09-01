@@ -1,49 +1,60 @@
-import React from 'react'
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import carosel_1 from '../assets/images/carosel1.jpg';
+import carosel_2 from '../assets/images/carosel2.jpg';
+import carosel_3 from '../assets/images/carosel3.jpg';
 
-import carosel_1 from '../assets/images/carosel1.jpg'
-import carosel_2 from '../assets/images/carosel2.jpg'
-import carosel_3 from '../assets/images/carosel3.jpg'
 const Hero = () => {
-    return (
-        <div id="carouselExampleCaptions" className="carousel slide">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src={carosel_1} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                </div>
-                <div className="carousel-item">
-                    <img src={carosel_2} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                </div>
-                <div className="carousel-item">
-                    <img src={carosel_3} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
+  return (
+    <Carousel
+      autoPlay={true}
+      infiniteLoop={true}
+      interval={5000} // Set the auto-slide interval in milliseconds (e.g., 5 seconds)
+      showThumbs={false} // Hide thumbnail navigation
+      showStatus={false} // Hide status indicator
+      showArrows={false} // Hide next and previous buttons
+      stopOnHover={false} // Do not pause on hover
+      className="carousel"
+    >
+      <div className="carousel-slide">
+        <img src={carosel_1} alt="Image 1" />
+        <div className="carousel-text">
+          <p>Elevate Your Style with Tailor-Made Elegance</p>
+          <a
+            className="book-appointment-button"
+            href="https://tailormadelondon.as.me/?appointmentType=category:Shoreditch%20Store"
+          >
+            Book An Appointment
+          </a>
         </div>
-    )
-}
+      </div>
+      <div className="carousel-slide">
+        <img src={carosel_2} alt="Image 2" />
+        <div className="carousel-text">
+          <p>Crafting Timeless Attire Just for You</p>
+          <a
+            className="book-appointment-button"
+            href="https://tailormadelondon.as.me/?appointmentType=category:Shoreditch%20Store"
+          >
+            Book An Appointment
+          </a>
+        </div>
+      </div>
+      <div className="carousel-slide">
+        <img src={carosel_3} alt="Image 3" />
+        <div className="carousel-text">
+          <p>Discover the Artistry of Bespoke Tailoring</p>
+          <a
+            className="book-appointment-button"
+            href="https://tailormadelondon.as.me/?appointmentType=category:Shoreditch%20Store"
+          >
+            Book An Appointment
+          </a>
+        </div>
+      </div>
+    </Carousel>
+  );
+};
 
-export default Hero
+export default Hero;

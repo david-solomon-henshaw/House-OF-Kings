@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import CallToAction from '../components/CallToAction';
-
+import alterationPng from '../assets/images/alterations.png'
 import WearTypes from './WearsTypes';
 import New from './New';
 import TailoringProcess from './Process';
