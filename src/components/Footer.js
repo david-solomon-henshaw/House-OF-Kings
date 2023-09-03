@@ -1,8 +1,9 @@
 import React from 'react';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-4">
+    <footer className="bg-light text-dark custom-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -38,18 +39,18 @@ const Footer = () => {
             <h5>Connect With Us</h5>
             <ul className="list-inline">
               <li className="list-inline-item">
-                <a href="#" className="text-white">
-                  <i className="fab fa-facebook"></i>
+                <a href="#">
+                  <FaFacebook className="text-primary" />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="text-white">
-                  <i className="fab fa-twitter"></i>
+                <a href="#">
+                  <FaTwitter className="text-info" />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="text-white">
-                  <i className="fab fa-instagram"></i>
+                <a href="#">
+                  <FaInstagram className="text-danger" />
                 </a>
               </li>
             </ul>

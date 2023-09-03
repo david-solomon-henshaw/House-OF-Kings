@@ -3,10 +3,10 @@ import VideoPlayer from './Video'
 import caro from '../assets/images/carosel1.jpg'
 const About = () => {
   return (
-    <div>
+    <div> 
       {/* <VideoPlayer /> */}
 
-      <div className="">
+      <div style={{marginTop: "10rem"}}>
         <div className="row">
           <div className="col-md-6 order-md-2 d-flex align-items-center">
             <img

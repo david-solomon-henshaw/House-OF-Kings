@@ -3,8 +3,8 @@ import { FaUser, FaCog, FaRuler, FaCheck } from 'react-icons/fa';
 
 const TailoringProcess = () => {
   return (
-    <div className="tailoring-process">
-      <h2 className="process-heading">THE PROCESS</h2>
+    <div className="tailoring-process" style={{marginTop: "90px"}}>
+      <h2 className="process-heading mb-5">THE PROCESS</h2>
       <div className="steps-container">
         <div className="step" style={{ textAlign: "center"}}>
           <FaUser className="icon" style={{margin: '20px', fontSize: "30px"}} />
