@@ -1,9 +1,15 @@
 
+.logo  {
+  width: 50px;
+  height: auto;
+}
 
 .services-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  background-color: #673a87 ;
+
 }
 
 .service {
@@ -144,19 +150,6 @@
 }
 
 
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.video-background video {
-  object-fit: cover;
-  filter: blur(10px); /* Adjust blur strength as needed */
-}
 
 .blur-overlay {
   position: absolute;
@@ -182,6 +175,7 @@
 
 .process-heading {
   text-align: center;
+  color: white;
 }
 
 .steps-container {
@@ -284,6 +278,9 @@ h3 {
   color: #fff;
 }
 
+.footer {
+  color: #c19c3e;
+}
 
 /* Custom CSS in your styles.css or <style> tag */
 @media (min-width: 768px) {
@@ -303,3 +300,109 @@ h3 {
 .carousel {
   margin-top: 50px;
 }
+
+/* Add this to your CSS file */
+.active-link {
+  border: 2px solid black;
+}
+
+
+/* Custom CSS to keep the image size contained */
+/* .custom-img {
+  max-width: 100%;
+  height: auto;
+}
+ */
+
+
+
+.btn {
+  display: inline-block;
+  background-color: #c19c3e; /* Your desired background color */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underlines */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+
+  /* Center the text and icon horizontally */
+ font-weight: 900;
+}
+
+.btn:hover {
+  background-color: green; /* Change background color on hover */
+  color: white;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+
+.bg-light {
+  background-color: #673a87;
+  color: white;
+}
+
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+
+
+
+/* Add this CSS in your stylesheet */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+  gap: 20px; /* Adds spacing between cards */
+  justify-content: space-between; /* Distributes cards evenly across the container */
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the card width for different screen sizes */
+  max-width: calc(33.33% - 20px); /* Adjust the maximum card width */
+  box-sizing: border-box; /* Ensures padding and border don't increase card width */
+  overflow: hidden; /* Clip any overflow from images */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the image cover the entire card while maintaining aspect ratio */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 calc(50% - 20px); /* Adjust card width for screens below 768px */
+    max-width: calc(50% - 20px); /* Adjust the maximum card width for screens below 768px */
+  }
+}
+
+/* Media Query for even smaller screens */
+@media (max-width: 479px) {
+  .card {
+    flex: 0 0 100%; /* Cards take up full width on screens below 480px */
+    max-width: 100%; /* Maximum width for cards on screens below 480px */
+  }
+}
+
+.custom-links a {
+  color: #c19c3e;
+  text-decoration: none; /* Remove underlines */
+}
+
+.custom-links a:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+.custom-link {
+  color: red !important; /* Specificity to override any other styles */
+  text-decoration: none !important;
+}
+
+
+.nav-link {
+  color: #c19c3e;
+  font-weight: 800;
+}
+

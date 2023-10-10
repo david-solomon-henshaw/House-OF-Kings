@@ -6,15 +6,12 @@ import LandingPage from './components/LandingPage';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
-import Catalogue from './components/Catalogue';
-import Traditional from './components/Traditional';
-import ChildrensClothing from './components/ChildrensClothing';
-import Corporate from './components/Corporate';
-import Sportwear from './components/Sportwear';
-import Uniforms from './components/Uniforms';
-import OfficeWears from './components/OfficeWears';
-import CasualWear from './components/CasualWear';
-import Wedding from './components/Wedding';
+import Suits from './components/Suits';
+import Kaftan from './components/Kaftan';
+import Wedding from './components/White_Wedding';
+import Traditional_Wedding from './components/Traditional_Wedding';
+import OurServices from './components/OurServices';
+import Agbada from './components/Agbada';
 function App() {
   return (
     <div className="App">
@@ -26,15 +23,13 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path='/about' element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/catalogue" element={<Catalogue />} />
-        <Route path="/catalogue/traditionalattire" element={<Traditional />} />
-        <Route path="/catalogue/childrensclothing" element={<ChildrensClothing />} />
-        <Route path="/catalogue/corporate" element={<Corporate />} />
-        <Route path="/catalogue/sportswear" element={<Sportwear />} />
-        <Route path="/catalogue/uniform" element={<Uniforms />} />
-        <Route path="/catalogue/officewears" element={<OfficeWears />} />
-        <Route path="/catalogue/casual" element={<CasualWear />} />
-        <Route path="/catalogue/wedding" element={<Wedding />} />
+        <Route path='/services' element={<OurServices />} />
+        <Route path="/catalogue/traditional_wedding" element={<Traditional_Wedding />} />
+        <Route path="/catalogue/kaftan" element={<Kaftan />} />
+        <Route path="/catalogue/agbada" element={<Agbada />} />
+        <Route path="/catalogue/white/wedding" element={<Wedding />} />
+        <Route path="/catalogue/suits" element={<Suits />} />
+
 
 
 
