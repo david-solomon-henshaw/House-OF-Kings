@@ -52,3 +52,26 @@ body {
     max-height: 2491px; /* Set the maximum height you want for the carousel */
   }
   
+
+.form {
+  background-color: #673a87;
+  padding: 20px;
+}
+
+
+.mb-3 > label {
+color: #c19c3e;
+font-weight: 900;
+
+}
+
+.container > h2 {
+  color: #c19c3e;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+
+footer {
+  border: solid 1px;
+}

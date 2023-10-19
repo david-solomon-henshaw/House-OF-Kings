@@ -4,14 +4,12 @@ import React from 'react';
 import carosel_suits_1 from '../assets/images/suits/1.jpg';
 import carosel_suits_2 from '../assets/images/suits/2.jpg';
 import carosel_suits_3 from '../assets/images/suits/3.jpg';
-import carosel_suits_5 from '../assets/images/suits/5.jpg';
 import carosel_suits_6 from '../assets/images/suits/6.jpg';
 import carosel_suits_7 from '../assets/images/suits/7.jpg';
 import carosel_suits_8 from '../assets/images/suits/8.jpg';
 import carosel_suits_9 from '../assets/images/suits/9.jpg';
 import carosel_suits_10 from '../assets/images/suits/10.jpg';
 import carosel_suits_11 from '../assets/images/suits/11.jpg';
-import carosel_suits_12 from '../assets/images/suits/12.jpg';
 import carosel_suits_13 from '../assets/images/suits/13.jpg';
 import carosel_suits_14 from '../assets/images/suits/14.jpg';
 import carosel_suits_16 from '../assets/images/suits/16.jpg';
@@ -44,14 +42,12 @@ const Suits = () => {
     carosel_suits_1,
     carosel_suits_2,
     carosel_suits_3,
-    carosel_suits_5,
     carosel_suits_6,
     carosel_suits_7,
     carosel_suits_8,
     carosel_suits_9,
     carosel_suits_10,
     carosel_suits_11,
-    carosel_suits_12,
     carosel_suits_13,
     carosel_suits_14,
     carosel_suits_16,

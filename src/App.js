@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -9,9 +8,9 @@ import Contact from './components/Contact';
 import Suits from './components/Suits';
 import Kaftan from './components/Kaftan';
 import Wedding from './components/White_Wedding';
-import Traditional_Wedding from './components/Traditional_Wedding';
 import OurServices from './components/OurServices';
 import Agbada from './components/Agbada';
+import Traditional from './components/Traditional_Wedding';
 function App() {
   return (
     <div className="App">
@@ -24,7 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/services' element={<OurServices />} />
-        <Route path="/catalogue/traditional_wedding" element={<Traditional_Wedding />} />
+        <Route path="/catalogue/traditional_wedding" element={<Traditional />} />
         <Route path="/catalogue/kaftan" element={<Kaftan />} />
         <Route path="/catalogue/agbada" element={<Agbada />} />
         <Route path="/catalogue/white/wedding" element={<Wedding />} />

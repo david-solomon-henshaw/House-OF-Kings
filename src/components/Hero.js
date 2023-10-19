@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="carousel-slide">
         <img
           src = {carosel_1}
-          alt="Image 1"
+          alt="Bespoke Wear"
         />
         <div className="carousel-text">
           <p>Elevate Your Style with Tailor-Made Elegance</p>
@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="carousel-slide">
         <img
           src={carosel_3}
-          alt="Image 3"
+          alt="Bespoke Wear"
         />
         <div className="carousel-text">
           <p>Discover the Artistry of Bespoke Tailoring</p>
@@ -46,7 +46,7 @@ const Hero = () => {
       <div className="carousel-slide">
         <img
           src={carosel_2}
-          alt="Image 2"
+          alt="Bespoke Wear"
         />
         <div className="carousel-text">
           <p>Crafting Timeless Attire Just for You</p>
@@ -61,7 +61,7 @@ const Hero = () => {
       <div className="carousel-slide">
         <img
           src={carosel_4}
-          alt="Image 3"
+          alt="Bespoke Wear"
         />
         <div className="carousel-text">
           <p>Discover the Artistry of Bespoke Tailoring</p>

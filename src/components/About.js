@@ -8,8 +8,8 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 order-md-2 d-flex align-items-center">
             <img
-              src="https://lh3.googleusercontent.com/pw/ADCreHcY69N6ZEbnyzmp0LZ3Uc0GjijjICTOrq4d7YRvqPHqkcjvAueU2b0dRqbD2Jh4CMPRtHEHTOyf7XV-s1XsFnmMzhT0onz5Y6a3trGalRweSohrVi1xKUUxrlLeLWsFcZs2EhzLoxt1vOTH0P_d2FJWgi2Pb8nqBA5xNkinQEpQhxRMlacuv-EOwMQGpGBRD27EXDDetWbRV1oOsLUJK0Ly_1JYOgAeabSYzTyjvRZT2epJ15vhDRonra4MZpP8NXWJJeLthYc_DgcJKEvLMBgLoGR7iCaJnsz7dH2QGpGRCLcxkBJGhdlibG-izYWRfCmm9YJJA7BOnx1h58o8k8cuJnZtr5wTacaYD2K2hcUKgq_eYjAIcjQnyuEOymx6qegYkNjXBza4HHq7ikBIHyTrMoQCaWWd5n4DnKTTWNu6DW7rHTgq7JcgzrrvztmW73AoFs-xv0ckZlOQhu5dRffXjOCjMlUHQ7EKq3olTPjeXSGZAFQOOwYNTOsLhX3fTPQOW4pVAJFm1SXkqL5DQ8kG0iIZcjBUoMcqLGuhfOBm5M8aDL6wu0q683JxIOjSYp2FoTu4hcHCUUqHgdPT0A3_ahn_Oe5f4lyGGShdQt_rUvbtvuHP8ExcPCSHePzhwSWrR3dRn2K6cT7IoSx4MiTXO4VPuzJRre9idXusDxdLzUATjJiIXx3lLsMparArTirnb3w5tEyoT_YutkjWUJDApN1vnHrcwXXPAY7YvmWYDoSK8sFaUDjM6tooXbCEKGskZ1HYuwH9hD-6gAAmY616eGDpGFv50lgszEygz9giGuu5cQ-7sD8L60yn6AFqWn1a8yJloyaFAtv_tmi41nC9ANhTe3Gvjphl1RmE4oIp1HtfS34_iDldCHLzFpFBJM3VgPSfCEy0s6AAeYSnkyh7byxq9M6yLhbH4YUzpRCgqHtsQnTmAN5G72pmj_r5C9hwM8ewzweK7PVULPlXMaQBFJ34B0sdIA1twOuQyy6F8XffbxkmLiy1sRGYqXyK70dHmA=w1280-h1024-s-no?authuser=2"
-              alt="Bespoke Bridal"
+              src="https://images.pexels.com/photos/6766363/pexels-photo-6766363.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="Bespoke Suit"
               className="img-fluid h-100"
             />
           </div>
@@ -38,8 +38,8 @@ const About = () => {
           </div>
           <div className="col-md-6 order-md-1 d-flex align-items-center">
             <img
-              src="https://kennyandharlow.co.nz/wp-content/uploads/bg-what-we-do.jpg"
-              alt="Bespoke Bridal"
+              src="https://cdn.pixabay.com/photo/2017/08/01/16/44/mannequin-2566559_640.jpg"
+              alt="Bespoke Tailor"
               className="img-fluid h-100"
             />
           </div>

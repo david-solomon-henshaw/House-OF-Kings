@@ -2,15 +2,11 @@
 import React from 'react';
 import carosel_kaftan_1 from '../assets/images/kaftans/1.jpg';
 import carosel_kaftan_2 from '../assets/images/kaftans/2.jpg';
-import carosel_kaftan_3 from '../assets/images/kaftans/3.jpg';
 import carosel_kaftan_4 from '../assets/images/kaftans/4.jpg';
-import carosel_kaftan_5 from '../assets/images/kaftans/5.jpg';
 import carosel_kaftan_6 from '../assets/images/kaftans/6.jpg';
 import carosel_kaftan_7 from '../assets/images/kaftans/7.jpg';
 import carosel_kaftan_8 from '../assets/images/kaftans/8.jpg';
-import carosel_kaftan_9 from '../assets/images/kaftans/9.jpg';
 import carosel_kaftan_10 from '../assets/images/kaftans/10.jpg';
-import carosel_kaftan_11 from '../assets/images/kaftans/11.jpg';
 import carosel_kaftan_12 from '../assets/images/kaftans/12.jpg';
 import carosel_kaftan_13 from '../assets/images/kaftans/13.jpg';
 import carosel_kaftan_14 from '../assets/images/kaftans/14.jpg';
@@ -18,7 +14,6 @@ import carosel_kaftan_15 from '../assets/images/kaftans/15.jpg';
 import carosel_kaftan_16 from '../assets/images/kaftans/16.jpg';
 import carosel_kaftan_17 from '../assets/images/kaftans/17.jpg';
 import carosel_kaftan_18 from '../assets/images/kaftans/18.jpg';
-import carosel_kaftan_19 from '../assets/images/kaftans/19.jpg';
 import carosel_kaftan_20 from '../assets/images/kaftans/20.jpg';
 
 
@@ -43,7 +38,7 @@ const Kaftan = () => {
   ]
   const imageLinks = originalImages.map((imageUrl, index) => ({
     src: imageUrl,
-    alt: `Image ${index + 1}`,
+    alt: `Bespoke Kaftan Wear ${index + 1}`,
   }));
 
   return (

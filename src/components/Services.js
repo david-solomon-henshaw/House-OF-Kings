@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import carosel_kaftan_15 from '../assets/images/kaftans/15.jpg';
+import carosel_wedding_3 from '../assets/images/white_wedding/3.jpg';
+import carosel_suits_16 from '../assets/images/suits/16.jpg';
+import carosel_agbada_26 from '../assets/images/agbada/26.jpg';
+
 
 
 const Services = () => {
@@ -10,7 +14,7 @@ const Services = () => {
       title: 'White Wedding',
       description: 'Elegant and customized wedding dresses and suits for your special day.',
       link: '/catalogue/white/wedding',
-      imageUrl: 'https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/255783179_5032854926725078_2433390086836605296_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=bcc5cc&_nc_ohc=XABL5GTIXq0AX9-KQXe&_nc_ht=scontent-los2-1.xx&oh=00_AfAOHZhpOPXSK5O-o8eKjHmIDRjS3_gvqvbHchjYmHvwtQ&oe=65259E24',
+      imageUrl: carosel_wedding_3,
     },
     
     {
@@ -23,13 +27,13 @@ const Services = () => {
       title: 'Suits',
       description: 'Tailored suits that exude confidence and professionalism.',
       link: 'catalogue/suits',
-      imageUrl: 'https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/277364754_5509472942396605_205402227904762805_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=bcc5cc&_nc_ohc=KaoYlPyURsoAX8Wry6v&_nc_ht=scontent-los2-1.xx&oh=00_AfDKOa6MAUYQZVize8H5_7JBBrMXoLe-wMyzXi546VQiPA&oe=65268712',
+      imageUrl: carosel_suits_16, 
     },
     {
       title: 'Agbada',
       description: 'Luxurious and traditional Agbada attire for special occasions.',
       link: '/catalogue/agbada',
-      imageUrl: 'https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/204629307_4618475901496318_9075916437270803869_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=bcc5cc&_nc_ohc=FNynfIwJ8ckAX-ohQTu&_nc_oc=AQkANfHZtb4wpieNuOthBoRKFikygEHJmv5j9oE0QXlueNnIIXvkPFcUUk_B6OWenOk&_nc_ht=scontent-los2-1.xx&oh=00_AfA02Q-kj2AWgz_UEtdBAHn9BwfDKG9_YaC4Lo4SuSTzRg&oe=6526CFA5',
+      imageUrl: carosel_agbada_26,
     },
     
     {
