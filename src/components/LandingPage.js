@@ -12,6 +12,7 @@ const LandingPage = () => {
       <Hero />
       <TailoringProcess />
       <Services />
+      
     </div>
   )
 }

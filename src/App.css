@@ -9,10 +9,7 @@
 
 body {
   background-color: #673a87;
-  opacity: 0.9;
-  background-image:  radial-gradient(#c19c3e 2px, transparent 2px), radial-gradient(#c19c3e 2px, #673a87 2px);
-  background-size: 80px 80px;
-  background-position: 0 0,40px 40px;
+ 
 }
 
   .about-me {

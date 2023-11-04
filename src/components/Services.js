@@ -5,6 +5,7 @@ import carosel_kaftan_15 from '../assets/images/kaftans/15.jpg';
 import carosel_wedding_3 from '../assets/images/white_wedding/3.jpg';
 import carosel_suits_16 from '../assets/images/suits/16.jpg';
 import carosel_agbada_26 from '../assets/images/agbada/26.jpg';
+import carosel_traditional_26 from '../assets/images/traditional_wedding/33.jpg';
 
 
 
@@ -21,8 +22,8 @@ const Services = () => {
       title: 'Traditional Wedding',
       description: 'Traditional and stylish outfits reflecting our cultural heritage.',
       link: '/catalogue/traditional_wedding',
-      imageUrl: 'https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/326013386_476688454660417_6064513785153967143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=FJ8rWEIYK68AX-qDzzZ&_nc_ht=scontent-los2-1.xx&oh=00_AfDlCZTUMvf0xcR6jvVAudM__Sr1yiy_5-BjkTG_Yedw1w&oe=65262B6E',
-    },
+      imageUrl: carosel_traditional_26,
+    }, 
     {
       title: 'Suits',
       description: 'Tailored suits that exude confidence and professionalism.',

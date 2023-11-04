@@ -12,6 +12,8 @@ import OurServices from './components/OurServices';
 import Agbada from './components/Agbada';
 import Traditional from './components/Traditional_Wedding';
 function App() {
+
+  console.log(process.env.REACT_APP_TEST, "testing .env")
   return (
     <div className="App">
       <header className="App-header">
